@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 
 class Dashboard extends Component {
   render() {
-    console.log(this.props);
     const { projects } = this.props
     return (
       <div className="dashboard container">
@@ -26,10 +25,6 @@ const mapStateToProps = state => {
   return {
     projects: state.project.projects
   }
-};
-
-const mapStateToActions = state => {
-
 };
 
 export default connect( mapStateToProps )(Dashboard);
