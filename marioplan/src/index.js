@@ -30,8 +30,6 @@ const rrfProps = {
   config: rrfConfig,
   dispatch: store.dispatch,
   createFirestoreInstance,
-
-
 }
 
 ReactDOM.render(
