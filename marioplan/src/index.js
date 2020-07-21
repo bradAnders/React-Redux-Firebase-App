@@ -24,6 +24,7 @@ const store = createStore( rootReducer,
 
 const rrfConfig = {
   userProfile: 'users',
+  // attachAuthIsReady: true,
 }
 const rrfProps = {
   firebase,
